@@ -7,7 +7,7 @@
 
 This is a simple expert system for covid written in JavaScript. The expert system is developed using [rools](https://github.com/frankthelen/rools), a small rule engine for Node.js, and [Handlebars.js](https://github.com/handlebars-lang/handlebars.js), a semantic templating language for JavaScript. [Try it here!](https://respiratory-diseases-es.herokuapp.com/)
 
-<p align=center><img src="/docs/img/covid-expert-system.png"></p>
+<p align=center><img src="/img/covid-expert-system.png"></p>
 <p align="center"><i>UI of the expert system</i></p>
 
 <br>
