@@ -1,0 +1,354 @@
+<div class="fixed-container">
+  <!-- Introduction -->
+  <div class="question-container" data-number="0">
+    <div class="question">
+      <h1>COVID-19</h1>
+      <p>What is this?</p>
+      <p>Answer 18 questions and we will tell you if you have a chance of having COVID-19.</p>
+    </div>
+    <div class="input">
+      <button class="submit" data-answer-type="choice">OK ✔</button>
+    </div>
+  </div>
+
+    <!-- question 0 -->
+  <div class="question-container" data-number="1">
+    <div class="question">
+      <h1>What is your name?</h1>
+      <p>Your name</p>
+    </div>
+    <div class="input">
+      <input id="nameInput" type="text" placeholder="Type your answer here." />
+      <button data-answer-type="text" class="submit">OK ✔</button>
+      <p id="nameInputReminder" style="color: red; display: none;">Fill in your name</p>
+    </div>
+  </div>
+
+  <!-- question 1 -->
+  <div class="question-container" data-number="2">
+    <div class="question">
+      <h1>1. Have you been tested for the coronavirus (awaiting results)?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="test" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="test" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+    <!-- question 2 -->
+  <div class="question-container" data-number="3">
+    <div class="question">
+      <h1>2. Have you tested POSITIVE for the coronavirus?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="positive" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="positive" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- question 3 -->
+  <div class="question-container" data-number="4">
+    <div class="question">
+      <h1>3. Have you had prolonged close contact with someone who tested
+positive for the coronavirus?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="prolonged" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="prolonged" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+    <!-- question 4 -->
+  <div class="question-container" data-number="5">
+    <div class="question">
+      <h1>4. Has a member of your household been tested for the coronavirus
+(Awaiting results)?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="testedMember" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="testedMember" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+      <!-- question 5 -->
+  <div class="question-container" data-number="6">
+    <div class="question">
+      <h1>5. Has a member of your household been asked by a medical professional
+to isolate for potential coronavirus?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="isolation" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="isolation" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+        <!-- question 6 -->
+  <div class="question-container" data-number="7">
+    <div class="question">
+      <h1>6. Has a household member had prolonged close contact with someone
+who tested positive for the coronavirus?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="prolongedCloseContact" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="prolongedCloseContact" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+          <!-- question 7 -->
+  <div class="question-container" data-number="8">
+    <div class="question">
+      <h1>7. Have you traveled out of the country within the last 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="travelledOut" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="travelledOut" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- question 8 -->
+  <div class="question-container" data-number="9">
+    <div class="question">
+      <h1>8. Are you experiencing or have you experienced coughing in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="coughing" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="coughing" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+    <!-- question 9 -->
+  <div class="question-container" data-number="10">
+    <div class="question">
+      <h1>9. Are you experiencing or have you experienced Shortness of breath in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="shortnessOfBreath" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="shortnessOfBreath" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+      <!-- question 10 -->
+  <div class="question-container" data-number="11">
+    <div class="question">
+      <h1>10. Are you experiencing or have you experienced Difficulty breathing in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="difficultyBreathing" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="difficultyBreathing" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+        <!-- question 11 -->
+  <div class="question-container" data-number="12">
+    <div class="question">
+      <h1>11. Are you experiencing or have you experienced Fever in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="fever" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="fever" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+
+        <!-- question 12 -->
+  <div class="question-container" data-number="13">
+    <div class="question">
+      <h1>12. Are you experiencing or have you experienced Chills in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="chills" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="chills" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+          <!-- question 13 -->
+  <div class="question-container" data-number="14">
+    <div class="question">
+      <h1>13. Are you experiencing or have you experienced Repeated shaking with chills in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="repeatedShakingWithChills" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="repeatedShakingWithChills" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- question 14 -->
+  <div class="question-container" data-number="15">
+    <div class="question">
+      <h1>14. Are you experiencing or have you experienced Muscle pain in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="musclePain" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="musclePain" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- question 15 -->
+  <div class="question-container" data-number="16">
+    <div class="question">
+      <h1>15. Are you experiencing or have you experienced New loss of taste or smell in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="lossOfTaste" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="lossOfTaste" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- question 16 -->
+  <div class="question-container" data-number="17">
+    <div class="question">
+      <h1>16. Are you experiencing or have you experienced Sore throat or headache in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="soreThroatOrHeadache" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="soreThroatOrHeadache" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+    <!-- question 17 -->
+  <div class="question-container" data-number="18">
+    <div class="question">
+      <h1>17. Are you experiencing or have you experienced Confusion, disorientation, or drowsiness in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="confusionDisorientationDrowsiness" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="confusionDisorientationDrowsiness" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+      <!-- question 18 -->
+  <div class="question-container" data-number="19">
+    <div class="question">
+      <h1>18. Are you experiencing or have you experienced Unusual fatigue/feeling unusually tired in the past 14 days?</h1>
+      <p>Yes or No.</p>
+    </div>
+    <div class="input">
+      <div>
+        <button data-question="unusualFatigue" data-choice="yes" data-answer-type="choice" class="submit" style="width: 6rem;">Yes</button>
+      </div>
+      <div>
+        <button data-question="unusualFatigue" data-choice="no" data-answer-type="choice" class="submit" style="width: 6rem;">No</button>
+      </div>
+    </div>
+  </div>
+
+  <!--  Result -->
+  <div class="question-container" data-number="20">
+    <div class="question">
+      <h1 id="username">,</h1>
+      <p id="youhave">you probably have</p>
+      <h2 id="disease" style="font-weight: 400"></h2>
+      <p id="percentage"></p>
+      <details>
+        <summary>Review your answer</summary>
+        <p id="review-name">Name: </p>
+        <p id="review-test">Tested for covid: </p>
+        <p id="review-positive">Formal Covid result: </p>
+        <p id="review-prolonged">Contact with anyone with covid: </p>
+        <p id="review-testedMember">Household member result: </p>
+        <p id="review-isolation">Household member in isolation: </p>
+        <p id="review-prolongedCloseContact">Household member with prolonged contact with covid: </p>
+        <p id="review-travelledOut">Travelled out of the country: </p>
+        <p id="review-coughing">Experiencing coughing: </p>
+        <p id="review-shortnessOfBreath">Shortness of breath: </p>
+        <p id="review-difficultyBreathing">Difficulty in breathing: </p>
+        <p id="review-fever">Fever: </p>
+        <p id="review-chills">Chills: </p>
+        <p id="review-repeatedShakingWithChills">Repeated shaking with chills: </p>
+        <p id="review-musclePain">Muscle pain: </p>
+        <p id="review-lossOfTaste">Loss of taste: </p>
+        <p id="review-soreThroatOrHeadache">Sore throat or headache: </p>
+        <p id="review-confusionDisorientationDrowsiness">Confusion, disorientation, or drowsiness: </p>
+        <p id="review-unusualFatigue">Unusual fatigue: </p>
+      </details>
+      <button class="try-agn-btn" onclick="location.reload();">Try again</button>
+
+    </div>
+  </div>
+</div>
